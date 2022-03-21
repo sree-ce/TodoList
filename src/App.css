@@ -4,7 +4,11 @@
   }
   
   body {
-    background-color: #1d1e29;
+      background-image: linear-gradient(120deg, #7a19a0 0%, #3fc018 45%, #973115 100%);
+      color: white;
+      font-family: "Poppins", sans-serif;
+      min-height: 100vh;
+    
   }
   
   .app {
