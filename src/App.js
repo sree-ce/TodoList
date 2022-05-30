@@ -28,7 +28,7 @@ function App() {
               console.log("err")
               alert("Field empty!")
             }else{
-            setToDos([...toDos, { id: Date.now(), text: toDo, static: true }]);
+            setToDos([...toDos, { text: toDo, static: true }]);
             setToDo("");
             }
             // setToDos([...toDos, { id: Date.now(), text: " ", static: false }]);
